@@ -1,0 +1,2 @@
+# QueryPanel
+An angular demo
