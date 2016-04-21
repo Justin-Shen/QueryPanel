@@ -1,0 +1,159 @@
+[{
+	"title": "版型",
+	"field": "type",
+	"type": "enum",
+	"isMulti": false,
+	"items": [{
+			"text": "宽松",
+			"value": 0
+		},{
+			"text": "直筒",
+			"value": 1
+		},{
+			"text": "修身",
+			"value": 2
+		},{
+			"text": "收腰",
+			"value": 3
+		}
+	]
+},{
+	"title": "材质",
+	"field": "material",
+	"type": "enum",
+	"isMulti": true,
+	"items": [{
+			"text": "猫腻",
+			"value": 0
+		},{
+			"text": "羊毛",
+			"value": 1
+		},{
+			"text": "羊绒",
+			"value": 2
+		},{
+			"text": "其他",
+			"value": 3
+		},{
+			"text": "双庙呢",
+			"value": 4
+		},{
+			"text": "毛",
+			"value": 5
+		},{
+			"text": "涤纶",
+			"value": 6
+		},{
+			"text": "天鹅绒",
+			"value": 7
+		},{
+			"text": "棉",
+			"value": 8
+		},{
+			"text": "纯色",
+			"value": 9
+		},{
+			"text": "拼接",
+			"value": 10
+		},{
+			"text": "格子",
+			"value": 11
+		},{
+			"text": "刺绣",
+			"value": 12
+		},{
+			"text": "拼色",
+			"value": 13
+		},{
+			"text": "贴布",
+			"value": 14
+		},{
+			"text": "撞色",
+			"value": 15
+		},{
+			"text": "千鸟格",
+			"value": 16
+		},{
+			"text": "条纹",
+			"value": 17
+		},{
+			"text": "编织",
+			"value": 18
+		}
+	]	
+},{
+	"title": "洗衣程序",
+	"field": "program",
+	"type": "enum",
+	"isMulti": false,
+	"items": [{
+			"text": "快洗",
+			"value": 0
+		},{
+			"text": "单洗",
+			"value": 1
+		},{
+			"text": "筒自洁",
+			"value": 2
+		},{
+			"text": "牛仔洗",
+			"value": 3
+		},{
+			"text": "毛巾洗",
+			"value": 4
+		},{
+			"text": "真丝洗",
+			"value": 5
+		},{
+			"text": "强力洗",
+			"value": 6
+		},{
+			"text": "大件洗",
+			"value": 7
+		},{
+			"text": "手洗",
+			"value": 8
+		},{
+			"text": "精细织物",
+			"value": 9
+		},{
+			"text": "衬衫,内衣,窗帘,护肤,羽绒服",
+			"value": 10
+		},{
+			"text": "羊毛洗",
+			"value": 11
+		},{
+			"text": "标准洗",
+			"value": 12
+		},{
+			"text": "化纤洗",
+			"value": 13
+		},{
+			"text": "抗菌洗",
+			"value": 14
+		},{
+			"text": "棉麻洗",
+			"value": 15
+		},{
+			"text": "预洗",
+			"value": 16
+		},{
+			"text": "单漂",
+			"value": 17
+		},{
+			"text": "羽绒服洗、羊毛洗、混合洗",
+			"value": 18
+		},{
+			"text": "丝毛、浸泡洗、自编程序、水温",
+			"value": 19
+		}
+	]	
+},{
+	"title": "价格",
+	"field": "price",
+	"type": "number"	
+},{
+	"title": "尺码",
+	"field": "size",
+	"type": "text"
+}]

@@ -1,0 +1,14 @@
+<div class="query-panel">
+	<div class="selected-box">
+		<span class="tips" ng-bind="selectedBox.length ? '已选择：' : '请选择：'"></span>
+		<a href="javascript:void(0)" class="condition" ng-repeat="condition in selectedBox track by $index" ng-click="removeCondition($index)" title="{{condition.text}}">
+			<span class="condition-title">{{condition.title}}：</span>
+			<span class="condition-text">{{condition.text}}</span>
+			<span class="condition-icon-x"></span>
+		</a>
+	</div>
+	<div class="query-box">
+		<div ng-repeat="field in fields track by $index" option="field" query-panel-field index="$index">
+		</div>
+	</div>
+</div>

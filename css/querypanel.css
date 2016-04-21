@@ -1,0 +1,173 @@
+.query-panel {
+	width: 1000px;
+	margin: auto;
+	font-size: 12px; 
+}
+
+.query-panel ul {
+	color: #666;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.query-panel a {
+	text-decoration: none;
+	color: #666;
+}
+
+.selected-box {
+	padding: 0 10px;
+	color: #999;
+}
+.selected-box .tips {
+	float: left;
+	line-height: 24px;
+}
+.selected-box .condition {
+	margin-right: 3px;
+    padding: 3px 6px 2px 6px;
+    border: solid 1px #ddd;	
+    float: left;
+}
+.selected-box .condition:hover {
+	border: 1px solid #f69;
+	color: #f69;
+}
+.selected-box .condition .condition-title {
+	float: left;
+}
+.selected-box .condition .condition-text {
+    max-width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+.selected-box .condition-icon-x {
+	display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-left: 4px;
+    background: url('../img/querypanel-icon.png') no-repeat;
+    background-position: -113px -13px;	
+}
+.selected-box:after {
+	content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.query-box {
+	margin-top: 10px;
+	border: 1px solid #e1e1e1;
+	padding: 0 16px;
+	position: relative;
+	color: #999;
+}
+
+.query-box .field {
+	border-top: solid 1px #eee;
+	position: relative;
+}
+.query-box .field.first {
+	border: 0;
+}
+
+.query-box .field-title {
+	position: absolute;
+	left: 0;
+	top: 12px;
+}
+
+.query-box .field-content {
+	margin: 0 150px 0 70px;
+}
+.query-box .field-content .items-wrapper {
+	height: 36px;
+	overflow: hidden;
+}
+.query-box .field-content.expanded .items-wrapper {
+	height: auto;
+	overflow: auto;
+	max-height: 125px;
+}
+.query-box .field-content .items:after {
+	content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.query-box .field-content li{
+	cursor: pointer;
+	float: left;
+	height: 12px;
+	margin: 12px 36px 12px 12px;
+}
+.query-box .field-content li.selected {
+	color: #f69;
+}
+.query-box .field-content li:hover {
+	color: #f69;
+}
+.query-box .field-content .item-text {
+	max-width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+.query-box .field-content .icon-filter {
+	float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: -1px;
+    margin-right: 2px;
+    background: url('../img/querypanel-icon.png') no-repeat;
+    background-position: -43px -10px;
+}
+.query-box .field-content .icon-filter.selected {
+	background-position: -70px -10px;
+}
+.query-box .price-wrapper .split {
+	padding: 0 3px;
+}
+.query-box .price-wrapper .btn-confirm {
+	border: 1px solid #DDD;
+	background-color: #f7f7f7;
+	margin-left: 5px;
+    padding: 2px 10px 3px;
+    border-radius: 2px;
+}
+.query-box .price-wrapper .btn-confirm:hover {
+	color: #f69;
+}
+.query-box input {
+	color: #000;
+	width: 60px;
+	height: 20px;
+    line-height: 20px;
+    border: 1px solid #CCC;
+    vertical-align: middle;
+}
+.query-box .price-wrapper,.text-wrapper {
+	height: 36px;
+	overflow: hidden;
+	padding: 10px 0 6px 12px;
+}
+.query-box .text-wrapper input {
+	width: 150px;
+}
+
+.query-box .field-operation {
+	position: absolute;
+	right: 0;
+	top: 12px;	
+}
+.query-box .field-operation .show-more {
+	margin-left: 16px;
+	cursor: pointer;
+}
+.query-box .field-operation .show-more:hover {
+	color: #666;
+}
